@@ -1,0 +1,58 @@
+.books-table {
+  .btn {
+    font-weight: 500;
+  }
+
+  .table th {
+    text-align: center;
+    vertical-align: middle;
+    background-color: #f8f9fa;
+  }
+
+  .table td {
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+
+  .form-control {
+    min-width: 250px;
+  }
+
+  @media (max-width: 768px) {
+    .d-flex {
+      flex-direction: column;
+      align-items: stretch;
+    }
+
+    .form-control {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+.books-form {
+  .form-label {
+    font-weight: 500;
+  }
+
+  .btn {
+    min-width: 100px;
+  }
+
+  .form-select {
+    min-width: 300px;
+  }
+}
+
+.search-btn {
+  margin-left: 10px;
+  padding: 0.25rem 0.75rem; /* giảm padding => nhỏ hơn */
+  font-size: 1rem;      /* chữ nhỏ hơn (14px) */
+  width: 80px;              /* nút hẹp hơn */
+  display: inline-block;    /* giữ inline */
+}
