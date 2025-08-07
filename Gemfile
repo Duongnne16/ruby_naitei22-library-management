@@ -95,3 +95,4 @@ group :test do
 end
 
 gem "ruby-lsp", "~> 0.26.1"
+gem "ransack"
