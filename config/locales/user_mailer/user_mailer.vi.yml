@@ -6,6 +6,7 @@ vi:
     activate_your_account: "Kích hoạt tài khoản của bạn"
     borrow_request_approved_subject: "Yêu cầu mượn sách của bạn đã được phê duyệt"
     borrow_request_rejected_subject: "Yêu cầu mượn sách của bạn đã bị từ chối"
+    borrow_request_reminder_subject: "Nhắc nhở trả sách"
 
     borrow_request_approved:
       title: "Yêu cầu Mượn Sách Đã Được Phê Duyệt!"
@@ -34,3 +35,10 @@ vi:
     edit:
       success: "Tài khoản đã được kích hoạt!"
       error: "Liên kết kích hoạt không hợp lệ"
+
+  borrow_request_reminder:
+      reminder_subject: "Nhắc nhở trả sách"
+      greeting: "Xin chào %{name},"
+      message_line1: "Bạn đã mượn sách và hạn trả là ngày %{end_date}."
+      message_line2: "Đây là email nhắc nhở: bạn chỉ còn %{days} ngày để trả sách."
+      message_line3: "Vui lòng sắp xếp để trả đúng hạn. Cảm ơn!"

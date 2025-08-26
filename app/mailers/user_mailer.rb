@@ -31,4 +31,14 @@ class UserMailer < ApplicationMailer
       subject: t("user_mailer.borrow_request_rejected_subject")
     )
   end
+
+  def borrow_request_reminder borrow_request
+    @borrow_request = borrow_request
+    @user = borrow_request.user
+
+    mail(
+      to: @user.email,
+      subject: I18n.t("user_mailer.borrow_request_reminder_subject")
+    )
+  end
 end

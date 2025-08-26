@@ -1,0 +1,6 @@
+<p><%= t("borrow_request_reminder.greeting", name: @user.name) %></p>
+
+<p><%= t("borrow_request_reminder.message_line1", end_date: @borrow_request.end_date.strftime(Settings.date_format.short)) %></p>
+<p><%= t("borrow_request_reminder.message_line2", days: 1) %></p>
+
+<p><%= t("borrow_request_reminder.message_line3") %></p>
